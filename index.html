@@ -4,14 +4,32 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="assets/css/settings.css">
+        <link href="assets/css/all.min.css" rel="stylesheet">
         <link rel="stylesheet" href="assets/css/bootstrap.min.css">
         <script src="assets/js/jquery.min.js"></script>
         <script src="assets/js/bootstrap.min.js"></script>
         <title>Project 1 - Personal Website</title>
     </head>
     <body>
-        <nav>
+        <nav class="navbar navbar-default">
             <!-- navigations bar -->
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">Personal</a>
+                </div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="#sec_01">WHO AM I?</a></li>
+                        <li><a href="#sec_02">WHAT I DO</a></li>
+                        <li><a href="#sec_03">HOBBIES</a></li>
+                    </ul>
+                </div>
+            </div>
         </nav>
 
         <div class="container-fluid bg-1">
@@ -53,11 +71,59 @@
                 </div>
             </div>
         </div>
-        <div>
+        <div class="container-fluid bg-3">
             <!-- Section Hobbies -->
+            <h3 id="sec_03">Hobbies</h3>
+            <div class="row">
+                <div class="col-sm-4">
+                    <p>Most of the time I spend in front of a computer developing new codes.</p>
+                    <img src="assets/img/img_01.jpg" class="img-responsive" style="width: 100%;">
+                </div>
+                <div class="col-sm-4">
+                    <p>Sometimes I like to exercise my mind a little by playing chess, I love chess!</p>
+                    <img src="assets/img/img_02.jpg" class="img-responsive" style="width: 100%;">
+                </div>
+                <div class="col-sm-4">
+                    <p>When stress takes over my neurons, I head for an online video game. It's great to play games to relax.</p>
+                    <img src="assets/img/img_03.jpg" class="img-responsive" style="width: 100%;">
+                </div>
+            </div>
         </div>
-        <footer>
+
+        <footer class="container-fluid bg-4">
             <!-- Footer -->
+            <div class="row">
+                <div class="col-md-12">
+                    <h3>Virtual Identity</h3>
+                    <ul class="list-inline">
+                        <li>
+                            <a href="#" class="btn-outline">
+                                <img src="assets/svgs/brands/facebook.svg" width="40" height="40">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="btn-outline">
+                                <img src="assets/svgs/brands/google.svg" width="40" height="40">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="btn-outline">
+                                <img src="assets/svgs/brands/twitter.svg" width="40" height="40">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="btn-outline">
+                                <img src="assets/svgs/brands/linkedin.svg" width="40" height="40">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="btn-outline">
+                                <img src="assets/svgs/brands/dribbble.svg" width="40" height="40">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </footer>
     </body>
 </html>

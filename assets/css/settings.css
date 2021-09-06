@@ -2,11 +2,24 @@
     background-color: #1abc9c;
     color: #ffffff;
     text-align: center;
+    margin-top: -20px;
 }
 
 .bg-2 {
     background-color: #474e5d;
     color: #ffffff;
+    text-align: center;
+}
+
+.bg-3 {
+    background-color: #c4b5b6;
+    color: #555555;
+    text-align: center;
+}
+
+.bg-4 {
+    background-color: #2f2f2f;
+    color: #FFFFFF;
     text-align: center;
 }
 
@@ -17,4 +30,36 @@
 
 .modal-dialog {
     color: #000000;
+}
+
+.navbar {
+    margin-bottom: 0;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 0;
+    font-size: 12px;
+    letter-spacing: 5px;
+}
+
+.navbar-nav li a:hover {
+    color: #1abc9c !important;
+}
+
+.btn-outline {
+    height: 55px;
+    width: 55px;
+    color: white;
+    line-height: 45px;
+    border: solid 1px white;
+    border-radius: 100%;
+    display: inline-block;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn-outline:houver,
+.btn-outline:focus,
+.btn-outline:active,
+.btn-outline.active {
+    color: #18BC9C;
+    background: white;
 }
