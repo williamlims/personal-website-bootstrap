@@ -1,0 +1,20 @@
+.bg-1 {
+    background-color: #1abc9c;
+    color: #ffffff;
+    text-align: center;
+}
+
+.bg-2 {
+    background-color: #474e5d;
+    color: #ffffff;
+    text-align: center;
+}
+
+.container-fluid {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.modal-dialog {
+    color: #000000;
+}

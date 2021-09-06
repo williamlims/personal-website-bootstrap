@@ -3,6 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="assets/css/settings.css">
         <link rel="stylesheet" href="assets/css/bootstrap.min.css">
         <script src="assets/js/jquery.min.js"></script>
         <script src="assets/js/bootstrap.min.js"></script>
@@ -12,11 +13,45 @@
         <nav>
             <!-- navigations bar -->
         </nav>
-        <div>
-            <!-- section who am I? -->
+
+        <div class="container-fluid bg-1">
+            <!-- section who am I?  -->
+            <h3 id="sec_01">who am I?</h3>
+            <img src="assets/img/person.jpg" class="img-circle img-responsive" alt="Person" width="342" height="329" style="display: inline;">
+            <h3>I am a person from Computer World!</h3>
         </div>
-        <div>
-            <!-- section what I Do-->
+
+        <div class="container-fluid bg-2">
+            <!-- section what do I? -->
+            <h3 id="sec_02">What Do I?</h3><br>
+            <p>I work with software development in general. I work in mobile development with Android Studio and Java, web development with Django/Laravel on the back-end and React and Bootstrap on the front-end. To learn more about my work, click on the button below.</p>
+            <button type="button"  class="btn btn-default btn-lg" data-target="#myModal" data-toggle="modal"> <span class="glyphicon glyphicon-search"></span> More about me</button>
+            <!-- Modal Window -->
+            <div id="myModal" class="modal fade">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header"> 
+                            <!-- Header --> 
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            <h4 class="modal-title">What do I?</h4>
+                        </div>
+                        <div class="modal-body"> 
+                            <!-- Body -->
+                            <p>
+                                Web Development (Python, PHP, Java, Javascript) <br>
+                                E-commerce (Django, Laravel) <br>
+                                Mobile (Android Studio, Java) <br>
+                                SEO (Google) <br>
+                                UX Design (Adobe XD, Figma) <br>
+                            </p> 
+                        </div>
+                        <div class="modal-footer"> 
+                            <!-- Footer -->
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Exit</button> 
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
         <div>
             <!-- Section Hobbies -->
